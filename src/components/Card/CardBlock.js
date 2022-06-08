@@ -4,25 +4,34 @@ import RedBlobTwo from "./RedBlobTwo.svg";
 import BlackBlob from "./BlackBlob.svg";
 import "./CardBlock.css";
 import { motion } from "framer-motion";
-import {useInView} from "react-intersection-observer"
-import {useEffect} from "react"
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
+import { useAnimation } from "framer-motion";
 
 function CardBlock() {
-
-const {ref, inView} = useInView()
-useEffect(() => {
-  console.log(inView)
-})
+  const { ref, inView } = useInView();
+  const animation = useAnimation();
+  useEffect(() => {
+    if (inView) {
+      animation.start({
+        x: 0,
+        transition: {delay: 2.5, duration: 2 }
+      });
+    }
+    if (!inView) {
+      animation.start({ x: "-100vw" });
+    }
+  }, [inView,animation]);
 
   return (
     <section className="home">
       <div ref={ref} className="vojin-container">
         {/* prettier-ignore */}
-        <motion.h3 animate={{x: 0}} initial={{ x: -700 }} transition={{ delay: 2.5, duration: 2 }}>
+        <motion.h3 animate={animation}>
           Hi, i'm <span>Vojin</span>
         </motion.h3>
         {/* prettier-ignore */}
-        <motion.img animate={{x: 0}} initial={{ x: -760 }} transition={{ delay: 2.5, duration: 2 }} src={BlackBlob} alt="BlackBlob" />
+        <motion.img animate={animation} src={BlackBlob} alt="BlackBlob" />
       </div>
       <Card className="top-card">
         {/* prettier-ignore */}
