@@ -1,0 +1,92 @@
+.contact-form-main {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form-container {
+  width: 60%;
+  height: 80%;
+  display: flex;
+  gap: 0%;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20%;
+  margin-top: 150px;
+}
+
+.contact-form-container h2 {
+  font-size: 50px;
+  font-family: "Manrope", sans-serif;
+}
+
+.contact-subtitle span {
+  color: red;
+}
+
+.form-container div {
+  width: 100%;
+  height: 100%;
+}
+
+.form-container {
+  width: 55%;
+  height: 100%;
+  background: black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Manrope", sans-serif;
+  position: relative;
+}
+
+form {
+  width: 85%;
+}
+
+input,
+textarea {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 30px;
+  background: black;
+  border: 2px white solid;
+  border-radius: 10px;
+  color: white;
+}
+
+button {
+  background-color: black;
+  border: 2px white solid;
+  color: white;
+  border-radius: 10px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 100;
+}
+
+::placeholder {
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+}
+
+.redblobfour {
+  position: absolute;
+  width: 1000px;
+  margin-right: 100px;
+  z-index: -1;
+}
+
+.contact-subtitle-container {
+  position: relative;
+}
+
+.black-blob-two {
+  position: absolute;
+  width: 250px;
+  z-index: -2;
+  left: -75px;
+  top:-30px;
+}

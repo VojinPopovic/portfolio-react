@@ -1,0 +1,94 @@
+.home {
+  width: 100%;
+  height: 1000px;
+  margin-top: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-card {
+  margin-left: 35%;
+  margin-bottom: 60px;
+
+  position: relative;
+}
+
+.card-image {
+  position: absolute;
+  width: 460px;
+  top: -500px;
+  right: 50px;
+  z-index: -1;
+}
+.top-card svg {
+  position: absolute;
+  top: -99px;
+  right: -150px;
+  z-index: -2;
+}
+
+.vojin-container {
+  margin-left: -50%;
+  margin-top: -1300px;
+  color: #000000;
+  position: absolute;
+  font-size: 50px;
+}
+
+.vojin-container h3 {
+  z-index: 1;
+  letter-spacing:-0.06em;
+  font-family: "Manrope", sans-serif;
+}
+
+.vojin-container img {
+  position: absolute;
+  top: 25px;
+  width: 250px;
+  margin-left: 60%;
+  z-index: -3;
+}
+
+h3 span {
+  color: #da3636;
+}
+
+.top-card h2,
+.bottom-card h2 {
+  color: white;
+  font-size: 46px;
+  line-height: 120%;
+  letter-spacing: -0.05em;
+  margin: 0;
+  margin-top: 20px;
+}
+.top-card h2 span,
+.bottom-card h2 span {
+  color: #da3636;
+}
+.top-card p,
+.bottom-card p {
+  width: 99%;
+  font-size: 15px;
+  line-height: 20px;
+  white-space: pre-wrap;
+  color: white;
+  letter-spacing: 0.08em;
+}
+.top-card-text-container {
+  margin: 0px 30px;
+}
+
+.bottom-card {
+  margin-right: 35%;
+  position: relative;
+}
+
+.bottom-card img {
+  position: absolute;
+  left: -100px;
+  top: -150px;
+  z-index: -1;
+}

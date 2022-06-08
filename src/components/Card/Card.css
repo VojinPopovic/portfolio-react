@@ -1,0 +1,10 @@
+.main-container {
+  position: relative;
+}
+
+.card {
+  width: 600px;
+  height: 335px;
+  background: #080808;
+  border-radius: 13px;
+}

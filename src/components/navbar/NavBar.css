@@ -1,0 +1,60 @@
+.navbar {
+  width: 99%;
+  height: 80px;
+  margin: 3px auto;
+  margin-top: 0.4%;
+  border: 1px #090909 solid;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #090909;
+  border-radius: 13px;
+}
+
+.contact-button {
+  width: 148px;
+  height: 53px;
+  margin-right: 14px;
+  background-color: #da3636;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px #da3636 solid;
+  border-radius: 13px;
+}
+.contact-button svg {
+  margin-right: 10px;
+}
+
+nav {
+  width: 250px;
+  margin-left: 50px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding-inline-start: 0;
+  justify-content: space-between;
+}
+li {
+  flex-shrink: 0;
+}
+a,
+button p {
+  color: white;
+  width: 71px;
+  height: 16px;
+  left: 219px;
+  top: 37px;
+  text-decoration: none;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
