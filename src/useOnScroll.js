@@ -16,7 +16,7 @@ function useOnScroll() {
       animation.start({ x: "-100vw" });
     }
   }, [inView,animation]);
-  return {ref, animation};
+  return [ref, animation];
 }
 
 export default useOnScroll;
