@@ -9,7 +9,7 @@ function useOnScrollLeft() {
     if (inView) {
       animation.start({
         x: 0,
-        transition: { delay: 1, duration: 1 },
+        transition: { delay: 2, duration: 1 },
       });
     }
     if (!inView) {

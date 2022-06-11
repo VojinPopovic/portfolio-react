@@ -8,8 +8,7 @@ function useOnScrollRight() {
   useEffect(() => {
     if (inView2) {
       animations.start({
-        scale:1,
-        transition: {delay: 1, duration: 1 }
+        scale:1
       });
     }
     if (!inView2) {
