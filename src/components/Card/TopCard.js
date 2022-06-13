@@ -1,8 +1,6 @@
 import Card from "./Card";
 import CardImage from "./CardImage.png";
-
 import useOnScrollRight from "../../useOnScrollRight";
-import { useCallback } from "react";
 import { motion } from "framer-motion";
 
 function TopCard() {

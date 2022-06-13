@@ -1,7 +1,6 @@
 import Card from "./Card";
 import RedBlobTwo from "./RedBlobTwo.svg";
 import useOnScrollRight from "../../useOnScrollRight";
-import { useCallback } from "react";
 import { motion } from "framer-motion";
 
 function BottomCard() {
