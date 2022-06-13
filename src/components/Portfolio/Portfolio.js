@@ -9,9 +9,9 @@ function Portfolio() {
 
   return (
     <section>
-      <div className="portfolio-section-container">
+      <div ref={inViewRef2} className="portfolio-section-container">
         {/* prettier-ignore */}
-        <motion.div ref={inViewRef2} animate={animations} initial={{scale:0}} transition={{delay:1, duration:1}} className="portfolio-courasel-container">
+        <motion.div  animate={animations} initial={{scale:0}} transition={{type: "spring", bounce: 0.6, delay:1, duration:1}} className="portfolio-courasel-container">
           <h2>Portfolio</h2>
         </motion.div>
         {/* prettier-ignore */}

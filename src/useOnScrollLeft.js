@@ -3,13 +3,13 @@ import { useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 function useOnScrollLeft() {
-  const [inViewRef, inView] = useInView()
+  const [inViewRef, inView] = useInView({ treshold: 0.1 });
   const animation = useAnimation();
   useEffect(() => {
     if (inView) {
       animation.start({
         x: 0,
-        transition: { delay: 2, duration: 1 },
+        transition: { delay: 0.5, duration: 1 },
       });
     }
     if (!inView) {
