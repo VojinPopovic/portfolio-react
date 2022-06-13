@@ -1,23 +1,11 @@
 import Card from "./Card";
 import RedBlobTwo from "./RedBlobTwo.svg";
-import useOnScrollLeft from "../../useOnScrollLeft";
 import useOnScrollRight from "../../useOnScrollRight";
 import { useCallback } from "react";
 import { motion } from "framer-motion";
 
 function BottomCard() {
-  const [inViewRef, animation] = useOnScrollLeft();
   const [inViewRef2, animations] = useOnScrollRight();
-
-  // Use `useCallback` so we don't recreate the function on each render - Could result in infinite loop
-  const setRefs = useCallback(
-    (node) => {
-      // Callback refs, like the one from `useInView`, is a function that takes the node as an argument
-      inViewRef(node);
-      inViewRef2(node);
-    },
-    [inViewRef, inViewRef2]
-  );
 
   return (
     <Card className="bottom-card">
@@ -35,7 +23,7 @@ function BottomCard() {
           voluptas quasi voluptatem consequatur.
         </p>
       </div>
-      <motion.img ref={setRefs}
+      <motion.img ref={inViewRef2}
         animate={animations}
         initial={{ scale: "0" }}
         transition={{ delay: 1, duration: 1 }}
