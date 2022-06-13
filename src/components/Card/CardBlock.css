@@ -3,10 +3,17 @@
   height: 1000px;
   margin-top: 550px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+.top-card-container{
+
+  height:50%;
+
+
+}
+
 
 .top-card {
   margin-left: 35%;
