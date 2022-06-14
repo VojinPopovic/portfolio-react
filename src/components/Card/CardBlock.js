@@ -24,13 +24,13 @@ function CardBlock() {
   return (
     <section className="home">
       <div ref={setRefs} className="vojin-container">
-        <motion.h3 animate={animation} initial={{ x: "-100vw" }}>
+        <motion.h3 animate={animation} initial={{ x: "-100vw" }} id="about-me">
           Hi, i'm <span>Vojin</span>
         </motion.h3>
         <motion.img
           animate={animations}
           initial={{ scale: "0" }}
-          transition={{ delay: 1, duration: 1 }}
+          transition={{ delay: 0.5, duration: 1 }}
           src={BlackBlob}
           alt="BlackBlob"
         />

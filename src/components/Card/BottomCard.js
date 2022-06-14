@@ -22,10 +22,11 @@ function BottomCard() {
           voluptas quasi voluptatem consequatur.
         </p>
       </div>
-      <motion.img ref={inViewRef2}
+      <motion.img
+        ref={inViewRef2}
         animate={animations}
-        initial={{ scale: "0" }}
-        transition={{ delay: 1, duration: 1 }}
+        initial={{ scale: 0 }}
+        transition={{ delay: 0.5, duration: 1 }}
         src={RedBlobTwo}
         alt="RedBlob"
         className="RedBlobTwo"
