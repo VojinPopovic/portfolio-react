@@ -1,0 +1,75 @@
+.elipse-one {
+  position: absolute;
+  z-index: -3;
+  width: 60%;
+  min-width: 50%;
+}
+.elipse-two {
+  position: absolute;
+  z-index: -2;
+  width: 55%;
+  right: 0;
+  min-width: 50%;
+}
+
+.elipse-three {
+  position: absolute;
+  transform: scaleX(1.6);
+  z-index: -3;
+  width: 30%;
+  top: 670px;
+  min-width: 50%;
+}
+
+.elipse-four {
+  position: absolute;
+  z-index: -4;
+  margin-top: 200px;
+  min-width: 50%;
+}
+
+.elipse-five {
+  position: absolute;
+  z-index: -4;
+  width: 90%;
+  right: 900px;
+  bottom: -1100px;
+  min-width: 50%;
+}
+
+.elipse-six {
+  position: absolute;
+  z-index: -5;
+  width: 92%;
+  bottom: -1400px;
+  left: 400px;
+  min-width: 50%;
+}
+
+.elipse-seven {
+  position: absolute;
+  z-index: -6;
+  bottom: -700px;
+  width: 74%;
+  left: 0px;
+  min-width: 50%;
+}
+
+.elipse-eight {
+  position: absolute;
+  z-index: -5;
+  right: -800px;
+  width: 90%;
+  bottom: 500px;
+  min-width: 50%;
+}
+
+@media (max-width: 1300px) {
+  .elipse-five{
+    bottom: -600px;
+    width: 1900px;
+  }
+  .elipse-six{
+    bottom: -800px;
+  }
+}

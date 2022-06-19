@@ -7,6 +7,7 @@ import ElipseSix from "../ElipseSix.svg";
 import ElipseSeven from "../ElipseSeven.svg";
 import ElipseEight from "../ElipseEight.svg";
 import { motion } from "framer-motion";
+import "./BackgroundBubbles.css"
 
 function BackgroundBubbles() {
   return (
