@@ -122,16 +122,6 @@ h3 span {
     z-index: -2;
   }
 }
-
-@media (max-width: 1000px) {
-  .top-card svg {
-    display: none;
-  }
-  .card-image {
-    width: 80%;
-  }
-}
-
 @media (min-width: 1396px) {
   .top-card-container {
     margin-bottom: 60px;
@@ -157,5 +147,20 @@ h3 span {
 
   .home {
     height: 1000px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .top-card svg {
+    display: none;
+  }
+  .card-image {
+    width: 80%;
+  }
+}
+
+@media (max-width: 750px) {
+  .card-image {
+    top:-700px;
   }
 }
