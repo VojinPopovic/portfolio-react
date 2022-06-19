@@ -1,6 +1,6 @@
 .main-container {
   width: 100%;
-  height: 350vh;
+  height: auto;
   position: relative;
   overflow: hidden;
 }

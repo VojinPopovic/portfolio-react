@@ -8,7 +8,7 @@ function Portfolio() {
   const [inViewRef2, animations] = useOnScrollRight();
 
   return (
-    <section>
+    <section className="portfolio-section">
       <div ref={inViewRef2} className="portfolio-section-container">
         {/* prettier-ignore */}
         <div className="portfolio-courasel-container">

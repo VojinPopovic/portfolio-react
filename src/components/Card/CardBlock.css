@@ -21,6 +21,8 @@
   top: 100px;
   z-index: -1;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .card-image {
@@ -103,6 +105,31 @@ h3 span {
     margin-left: 0;
     margin-right: 0;
   }
+  .vojin-container {
+    margin-left: 0;
+    margin-top: -1550px;
+    color: #000000;
+    position: absolute;
+    font-size: 50px;
+  }
+  .home {
+    margin-top: 400px;
+  }
+
+  .top-card svg {
+    top: 400px;
+    right: -80px;
+    z-index: -2;
+  }
+}
+
+@media (max-width: 1000px) {
+  .top-card svg {
+    display: none;
+  }
+  .card-image {
+    width: 80%;
+  }
 }
 
 @media (min-width: 1396px) {
@@ -117,7 +144,7 @@ h3 span {
   }
   .card-image {
     position: absolute;
-    top:-600px;
+    top: -600px;
     left: -20px;
     width: 125%;
   }
@@ -128,7 +155,7 @@ h3 span {
     z-index: -2;
   }
 
-  .home{
+  .home {
     height: 1000px;
   }
 }
