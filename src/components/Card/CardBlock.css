@@ -157,10 +157,29 @@ h3 span {
   .card-image {
     width: 80%;
   }
+  
+  .top-card h2 {
+    font-size: 5vw;
+    white-space: nowrap;
+  }
+  .top-card h2 span {
+    font-size: 5vw;
+    white-space: nowrap;
+  }
+
+  .bottom-card h2,
+  .bottom-card h2 span {
+    font-size: 5vw;
+  }
 }
 
 @media (max-width: 750px) {
   .card-image {
-    top:-700px;
+    top: -700px;
+  }
+  .top-card p,
+  .bottom-card p {
+    font-size: 2vw;
+    line-height: 120%;
   }
 }
