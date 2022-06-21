@@ -1,9 +1,8 @@
 .elipse-one {
-  position: absolute;
   z-index: -3;
-  width: 60%;
-  min-width: 50%;
+  width: 70%;
 }
+
 .elipse-two {
   position: absolute;
   z-index: -2;
@@ -16,9 +15,7 @@
   position: absolute;
   transform: scaleX(1.6);
   z-index: -3;
-  width: 30%;
-  top: 670px;
-  min-width: 50%;
+  top: 800px;
 }
 
 .elipse-four {
@@ -64,12 +61,24 @@
   min-width: 50%;
 }
 
-@media (max-width: 1300px) {
-  .elipse-five{
-    bottom: -600px;
-    width: 1900px;
+@media (max-width: 1660px) {
+  .elipse-five {
+    top: 3300px;
+    right: 600px;
   }
-  .elipse-six{
-    bottom: -800px;
+  .elipse-six {
+    top: 3500px;
   }
 }
+
+@media (max-width: 1125px) {
+  .elipse-five {
+    top: 3200px;
+    right: 500px;
+  }
+  .elipse-six {
+    top: 3400px;
+  }
+}
+
+
