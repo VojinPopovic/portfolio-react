@@ -175,11 +175,24 @@ h3 span {
 
 @media (max-width: 750px) {
   .card-image {
-    top: -700px;
+    top: -650px;
+     width: 90%;
   }
   .top-card p,
   .bottom-card p {
-    font-size: 2vw;
+    font-size: 2.5vw;
     line-height: 120%;
   }
+
+}
+
+@media (max-width: 650px) {
+ .vojin-container{
+   margin-top: -210%;
+ }
+
+ .home {
+  margin-top: 30%;
+}
+
 }
