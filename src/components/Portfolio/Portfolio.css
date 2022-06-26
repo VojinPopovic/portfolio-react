@@ -47,10 +47,10 @@
   }
 }
 
-@media (max-width:1100px) {
+@media (max-width:1000px) {
   .portfolio-courasel-container{
-    width: 90vw;
-    height: 90vw;
+    width: 80vw;
+    height: 80vw;
     margin-top:0;
   }
   .redblobsix {
