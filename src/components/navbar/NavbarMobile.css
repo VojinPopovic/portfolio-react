@@ -1,0 +1,37 @@
+.navbar-container-mobile {
+  width: 99%;
+  height: 80px;
+  margin: 3px auto;
+  margin-top: 0.4%;
+  border: 1px #090909 solid;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #090909;
+  border-radius: 13px;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+.hamburger-icon-container{
+    width: 15%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 900px) {
+  .navbar-container-mobile {
+    display: flex;
+  }
+}
+
+@media(min-width:900px){
+    .navbar-container-mobile{
+        display: none;
+    }
+}
