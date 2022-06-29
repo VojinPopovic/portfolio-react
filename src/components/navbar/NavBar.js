@@ -15,7 +15,7 @@ function NavBar() {
         transition={{ duration: 1 }}
         className="navbar-container-one"
       >
-        <NavbarLinks />
+        <NavbarLinks className="nav-links"/>
         <ContactButton/>
         
       </motion.div>

@@ -41,6 +41,7 @@
   color: #000000;
   position: absolute;
   font-size: 50px;
+  z-index: -1;
 }
 
 .vojin-container h3 {
