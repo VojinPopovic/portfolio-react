@@ -1,4 +1,8 @@
 import React from "react";
+import { HashLink as Link } from "react-router-hash-link";
+
+
+
 
 function NavbarLinks(props) {
   const classes = "links " + props.className;
@@ -9,13 +13,13 @@ function NavbarLinks(props) {
         <nav className="navbar-one">
           <ul>
             <li>
-              <a href="http://localhost:3000/">Home</a>
+              <Link smooth to="/">Home</Link>
             </li>
             <li>
-              <a href="http://localhost:3000/#about-me">About Me</a>
+              <Link smooth to="/#about-me">About me</Link>
             </li>
             <li>
-              <a href="http://localhost:3000/">Portfolio</a>
+              <Link smooth to="/#portfolio">Portfolio</Link>
             </li>
           </ul>
         </nav>

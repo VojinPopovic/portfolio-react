@@ -8,8 +8,8 @@ function NavBar() {
   const [ref, animation] = useOnScrollNav();
 
   return (
-    <div ref={ref}>
-      <motion.div
+    <div ref={ref} className="navbar-main-container">
+      <div
         animate={animation}
         initial={{ y: "-100vh" }}
         transition={{ duration: 1 }}
@@ -18,7 +18,7 @@ function NavBar() {
         <NavbarLinks className="nav-links"/>
         <ContactButton/>
         
-      </motion.div>
+      </div>
     </div>
   );
 }

@@ -24,7 +24,7 @@ function CardBlock() {
   return (
     <section className="home">
       <div ref={setRefs} className="vojin-container">
-        <motion.h3 animate={animation} initial={{ x: "-100vw" }} id="about-me">
+        <motion.h3 animate={animation} initial={{ x: "-100vw" }}>
           Hi, i'm <span>Vojin</span>
         </motion.h3>
         <motion.img

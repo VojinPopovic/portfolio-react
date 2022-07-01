@@ -13,7 +13,7 @@ function TopCard() {
       </div>
       <Card className="top-card">
         <div className="top-card-text-container">
-          <motion.h2>
+          <motion.h2 id="about-me">
             A <span>frontend</span> <br /> developer
           </motion.h2>
           <motion.p>

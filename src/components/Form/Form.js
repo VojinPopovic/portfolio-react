@@ -40,7 +40,7 @@ function Form() {
             className="black-blob-two"
           />
         </div>
-        <div ref={setRefs} className="form-container">
+        <div className="form-container">
           <form
             action="https://formsubmit.co/vojinpopovic3@gmail.com"
             method="POST"

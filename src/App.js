@@ -6,6 +6,8 @@ import Form from "./components/Form/Form";
 import BackgroundBubbles from "./components/Background/BackgroundBubbles";
 import NavbarMobile from "./components/navbar/NavbarMobile";
 
+
+
 function App() {
   return (
     <div className="main-container">
